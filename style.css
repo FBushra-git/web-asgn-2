@@ -8,6 +8,15 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+body{
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+}
+
+main{
+  flex:1;
+}
 
 /* navbar styles */
 .navbar{
@@ -499,12 +508,13 @@ footer{
     background-color: rgba(26, 11, 46, 1);
     background-repeat: no-repeat;
     background-position: center;
-    padding: 0px;
+    padding: 20px;
     color: white;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
    
    
 }
